@@ -1,0 +1,12 @@
+curl -X POST https://intsvc.iprojekt.hr:5000/createaccount -H "Content-Type: application/json" -d '{
+    "username": "testuser",
+    "password": "testpassword",
+    "contact_name": "John Doe",
+    "contact_email": "john.doe@example.com",
+    "contact_phone": "+1234567890",
+    "contact_handler_uri": "http://example.com/handler",
+    "contact_timezone": "UTC",
+    "active": true,
+    "contract_type": "Premium"
+}'
+
